@@ -1,0 +1,25 @@
+{
+    "manifest_version": 2,
+    "name": "Water is Life",
+    "description": "Thousands Have Lived Without Love, Not One Without Water",
+    "version": "1.0",
+    "icons": {
+        "16": "water16.png",
+        "32": "water32.png",
+        "64": "water64.png",
+        "128": "water128.png"
+    },
+    "background": {
+        "scripts": ["background.js" ],
+        "persistent": true
+    },
+    "browser_action": {
+        "default_popup": "index.html",
+        "default_icon": "water128.png"
+    },
+    "permissions": [
+        "notifications",
+        "alarms",
+        "storage"
+    ]
+}
